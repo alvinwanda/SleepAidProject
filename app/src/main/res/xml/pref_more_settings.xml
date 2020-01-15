@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<SwitchPreference
+		android:key="dark_theme"
+		android:title="@string/action_dark_theme"
+		android:defaultValue="false"/>
+
+	<CheckBoxPreference
+		android:key="handle_volume_key"
+		android:title="@string/handle_volume_key_title"
+		android:defaultValue="false"/>
+
+	<CheckBoxPreference
+		android:key="auto_enabled_when_brightness_changed"
+		android:title="@string/auto_enable_when_brightness_changed_title"
+		android:defaultValue="false"/>
+
+
+	<Preference
+		android:key="about"
+		android:title="@string/action_about"/>
+
+</PreferenceScreen>
+

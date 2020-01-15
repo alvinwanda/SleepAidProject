@@ -1,0 +1,74 @@
+<resources
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="MissingTranslation" >
+
+	<string name="app_name">Sleep Aid</string>
+
+	<string name="permission_control_blackbulb_label">Control Bluelight Filter</string>
+	<string name="permission_control_blackbulb_desc">get the status and control filter</string>
+
+	<!-- Button tip -->
+	<string name="button_tip_text">Click the power button to turn filter on/off.\n\nMove slider to the Left to make Screen Darker\nor to the Right to make Screen Brighter\nTip: Darker is Better</string>
+
+    <!-- Yellow filter row -->
+    <string name="yellow_filter">Slide right to make filter more yellow</string>
+
+	<!-- Scheduler Row -->
+	<string name="scheduler_status_on_show_enable_time">Filter will start at %s.</string>
+	<string name="scheduler_status_on_show_disable_time">Filter will end at %s.</string>
+	<string name="scheduler_status_off">Auto-mode disabled</string>
+	<string name="action_settings">Settings</string>
+
+	<!-- Dark theme Row -->
+	<string name="action_dark_theme">Dark theme</string>
+
+	<!-- More settings row -->
+	<string name="more_settings">More Settings</string>
+
+	<!-- Notification Channel -->
+	<string name="notification_channel_running_status">Running status</string>
+
+	<!-- Shortcut -->
+	<string name="shortcut_label_switch">Toggle</string>
+
+	<!-- About -->
+	<string name="action_about">About</string>
+
+    <string name="about_name">Sleep Aid - Automated Blue Light Filter</string>
+	<string name="about_author">A Uganda Christian University (Main Campus), Computer Science Project</string>
+	<string name="about_text">Designed as a final year project by Wanda Alvin Masaba, who strives for a Bachelors of Science in Computer Science degree!!\n\nSpecial thanks to:\n-Ms. Terhemba Michael Ahile, my supervisor\n-Stackoverflow, https://stackoverflow.com\n-and a few other mentions.</string>
+	<string name="about_other">Project made for the year: 2019\nPresented to the panel on the 24th of April\nAt the Main Campus: TechPark Lab 2.</string>
+
+	<!--<string name="about_donate_alipay">Support author via Alipay</string>-->
+
+	<string name="dialog_overlay_enable_title">Enable Status Bar Overlay</string>
+	<string name="dialog_overlay_enable_message">Overlay the status bar at the top of the screen, (might need a permissions).\nIf it doesn\'t work on the first try, please allow Sleep Aid to show system alert windows.</string>
+
+	<string name="mask_fail_to_start">Sleep Aid has failed to load filter. Did you disable permissions?</string>
+
+	<string name="dialog_first_run_title">Visibility Test</string>
+	<!--<string name="dialog_first_run_message">Filter has been activated.\nUse the slider to change intensity.\nFilter will deactivate in five seconds if you do not press OK.</string>-->
+	<string name="dialog_first_run_message">Filter successfully activated.\n\nTo confirm you can still see your screen, tap "Ok" or filter will be de-activated.\n</string>
+
+	<!-- Notification -->
+	<string name="notification_running_title">Light Filter is On</string>
+	<!--<string name="notification_running_msg">Click to open settings</string>-->
+
+	<string name="notification_paused_title">Light Filter is Paused</string>
+	<!--<string name="notification_paused_msg">Swipe to permanently close</string>-->
+
+	<string name="notification_action_turn_off">Pause Filter</string>
+	<string name="notification_action_turn_on">Resume</string>
+
+	<!-- Auto Mode -->
+	<string name="scheduler_title">Auto Stop/Start</string>
+
+	<string name="dialog_ignore_battery_opt_title">Warning</string>
+	<string name="dialog_ignore_battery_opt_msg">To avoid errors in auto filter activation and deactivation, tap "Disable Optimisation" below and then tap "Yes".</string>
+	<string name="dialog_button_go_to_set">Settings</string>
+
+	<!-- More settings -->
+	<string name="handle_volume_key_title">Use volume keys to adjust filter</string>
+	<string name="auto_enable_when_brightness_changed_title">Enable filter when brightness changed</string>
+
+</resources>
